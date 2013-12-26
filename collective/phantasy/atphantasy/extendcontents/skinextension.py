@@ -1,6 +1,6 @@
 import zope.interface
 import zope.component
-from zope.app.component.hooks import getSite
+from zope.component.hooks import getSite
 from archetypes.schemaextender.interfaces import IOrderableSchemaExtender, IBrowserLayerAwareExtender
 from archetypes.schemaextender.field import ExtensionField
 from Products.Archetypes import atapi

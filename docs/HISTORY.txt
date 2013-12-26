@@ -4,6 +4,9 @@ Changelog
 2.4 (unreleased)
 ----------------
 
+- Plone 4.3 compatibility.
+  [thomasdesvenain]
+
 - Replace 'p' elements by 'span' in logo because logo is in an 'a' element.
   [thomasdesvenain]
 
