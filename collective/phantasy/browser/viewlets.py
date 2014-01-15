@@ -44,16 +44,23 @@ class PhantasyHeaderViewlet(ViewletBase):
         portal = portal_state.portal()
         cooked_css = []
         parent = context
-        while parent != portal:
-            parent = aq_inner(parent.aq_parent)
-            parent_skin = parent.restrictedTraverse('@@getPhantasySkin')
-            if parent_skin():
-                pskin = aq_inner(parent_skin())
+        while 1:
+            parent = aq_inner(context.aq_parent)
+            context_skin = context.restrictedTraverse('@@getPhantasySkin')()
+            if context_skin:
+                pskin = aq_inner(context_skin)
                 if base_hasattr(pskin, "getCssfile"):
-                     if pskin.getCssfile():
-                         cooked_css.append('%s/%s' %(pskin.absolute_url(),pskin.getCssfile()))
+                    if pskin.getCssfile():
+                        cooked_css.append('%s/%s' % (pskin.absolute_url(),
+                                                     pskin.getCssfile()))
 
-                cooked_css.append('%s/collective.phantasy.css' %pskin.absolute_url())
+                cooked_css.append('%s/collective.phantasy.css' % pskin.absolute_url())
+
+            if context == portal:
+                break
+
+            context = parent
+
 
         cooked_css.reverse()
         return cooked_css

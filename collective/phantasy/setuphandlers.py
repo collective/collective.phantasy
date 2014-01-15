@@ -3,8 +3,11 @@ from zope.component.hooks import getSite
 
 def install_atphantasy_contents(context):
 
-    if context.readDataFile('collective.phantasy_contents.txt') is None:
-        return
+    try:
+        if context.readDataFile('collective.phantasy_contents.txt') is None:
+            return
+    except AttributeError:
+        pass
 
     """install atphantasy skin structure"""
     portal = getSite()
@@ -71,6 +74,3 @@ def install_atphantasy_contents(context):
             portal.invokeFactory( **foldersample)
             o = getattr(portal, 'folder-with-other-skin')
             o.edit(local_phantasy_skin= skinuid)
-
-
-

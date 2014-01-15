@@ -9,7 +9,7 @@ Test SchemaExtender
 Some imports
 
     >>> import zope.interface
-    >>> from zope.app.component.hooks import getSite
+    >>> from zope.component.hooks import getSite
     >>> from collective.phantasy import config
     >>> from Products.ATContentTypes.content import folder
     >>> from collective.phantasy.atphantasy.extendcontents.skinextension import ISkinnable, PhantasySkinSchemaExtender
