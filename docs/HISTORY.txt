@@ -4,6 +4,9 @@ Changelog
 2.4 (unreleased)
 ----------------
 
+- Protect css view to avoid site errors on private websites.
+  [thomasdesvenain]
+
 - Fixed tests.
   [thomasdesvenain]
 
