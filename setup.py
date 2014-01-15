@@ -29,6 +29,11 @@ setup(name='collective.phantasy',
           'archetypes.schemaextender>=1.5',
           'Products.SmartColorWidget>=1.1.1',
       ],
+      extras_require=dict(
+        test=[
+          'Products.Archetypes',
+          'Products.PloneTestCase'
+        ]),
       entry_points="""
       # -*- Entry points: -*-
       """,
