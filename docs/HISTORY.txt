@@ -4,7 +4,8 @@ Changelog
 2.5 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Do not use background-image for 'required' field anymore.
+  [thomasdesvenain]
 
 
 2.4 (2014-01-15)

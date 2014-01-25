@@ -622,11 +622,6 @@ legend {
 }
 
 /* The edit form elements */
-.
-.fieldRequired {
-    background-image: url(&dtml-css_url;/required.gif);
-    color: &dtml-backgroundColor;;
-}
 .formHelp {
     color: &dtml-discreetColor;;
 }
@@ -951,9 +946,6 @@ li.formTab a:hover {
 li.formTab a.notify {
     background-color: &dtml-notifyBackgroundColor;;
     color: &dtml-fontColor;;
-}
-li.formTab a.required span {
-    background-image: url(&dtml-css_url;/required.gif);
 }
 li.formTab a.notify:hover {
     background-color: &dtml-notifyBorderColor;;
