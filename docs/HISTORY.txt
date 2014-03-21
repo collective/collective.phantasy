@@ -4,7 +4,9 @@ Changelog
 2.6 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Content types use .png icons instead of .gif
+  (Plone 4.3 compatibility).
+  [thomasdesvenain]
 
 
 2.5 (2014-01-26)
