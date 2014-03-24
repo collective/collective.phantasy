@@ -5,6 +5,7 @@ Changelog
 ----------------
 
 - Override .png images instead of .gif ones
+  Content types use .png icons instead of .gif
   (Plone 4.3 compatibility).
 
 
