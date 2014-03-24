@@ -4,7 +4,7 @@
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
  <property name="title">Skin Image</property>
  <property name="description">Image for Phantasy Skin</property>
- <property name="content_icon">image_icon.gif</property>
+ <property name="content_icon">image_icon.png</property>
  <property name="content_meta_type">PhantasySkinImage</property>
  <property name="product">collective.phantasy</property>
  <property name="factory">addPhantasySkinImage</property>

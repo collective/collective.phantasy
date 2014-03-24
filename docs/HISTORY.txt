@@ -4,7 +4,8 @@ Changelog
 2.6 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Override .png images instead of .gif ones
+  (Plone 4.3 compatibility).
 
 
 2.5 (2014-01-26)

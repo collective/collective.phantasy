@@ -135,7 +135,7 @@ input.searchButton {
     margin-bottom: &dtml-borderWidth; ! important;
     color: &dtml-fontColor;;
     font-size: &dtml-fontSmallSize;;
-    background: &dtml-backgroundColor; url(&dtml-css_url;/search_icon.gif) 2px 1px no-repeat;
+    background: &dtml-backgroundColor; url(&dtml-css_url;/search_icon.png) 2px 1px no-repeat;
     text-transform: &dtml-textTransform;;
     border: &dtml-borderWidth; solid &dtml-discreetColor;;
     padding-left: 12px;
@@ -236,7 +236,7 @@ input.searchButton {
 }
 
 #portal-personaltools .portalUser {
-    background: transparent url(&dtml-css_url;/user.gif) center left no-repeat;
+    background: transparent url(&dtml-css_url;/user.png) center left no-repeat;
 }
 #portal-personaltools .portalNotLoggedIn {
     /* Used on all descriptions relevant to those not logged in */
@@ -328,7 +328,7 @@ input.searchButton {
     background: &dtml-contentBackgroundColor;;
 }
 .documentContent ul {
-    list-style-image: url(&dtml-css_url;/bullet.gif);
+    list-style-image: url(&dtml-css_url;/bullet.png);
 }
 
 /* Links with differently colored link underlines - only for content */
@@ -544,7 +544,7 @@ textarea.proportional {
 
 
 #dashboard-actions ul li.portalUser {
-    background-image: url(&dtml-css_url;/user.gif);
+    background-image: url(&dtml-css_url;/user.png);
 }
 
 </dtml-if>
@@ -557,7 +557,7 @@ textarea.proportional {
 input, textarea {
     font-family: <dtml-var fontFamily>;
     color: &dtml-inputFontColor;;
-    background-image: url(&dtml-css_url;/input_background.gif);
+    background-image: url(&dtml-css_url;/input_background.png);
     background-repeat: repeat-x;
 }
 /*
@@ -592,7 +592,7 @@ legend {
 
 .standalone,
 .documentEditable * .standalone {
-    background: &dtml-globalBackgroundColor; url(&dtml-css_url;/linkOpaque.gif) 3px 1px no-repeat;
+    background: &dtml-globalBackgroundColor; url(&dtml-css_url;/linkOpaque.png) 3px 1px no-repeat;
     color: &dtml-fontColor;;
     font-size: &dtml-fontSmallSize;;
     text-transform: &dtml-textTransform;;
@@ -602,7 +602,7 @@ legend {
 .context,
 .formControls .actionButtons .button,
 .documentEditable * .context {
-    background: url(&dtml-css_url;/linkTransparent.gif) 3px 1px no-repeat;
+    background: url(&dtml-css_url;/linkTransparent.png) 3px 1px no-repeat;
     color: &dtml-fontColor;;
     font-size: &dtml-fontSmallSize;;
     text-transform: &dtml-textTransform;;
@@ -612,7 +612,7 @@ legend {
 
 .destructive,
 .documentEditable * .destructive {
-    background: &dtml-notifyBackgroundColor; url(&dtml-css_url;/linkTransparent.gif) 2px 1px no-repeat;
+    background: &dtml-notifyBackgroundColor; url(&dtml-css_url;/linkTransparent.png) 2px 1px no-repeat;
     padding-left: 10px;
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-notifyBorderColor;;
     color: &dtml-fontColor;;
@@ -736,7 +736,7 @@ dl.portlet {
 
 /* Static text portlet */
 .portletStaticText ul {
-    list-style-image: url(&dtml-css_url;/bullet.gif);
+    list-style-image: url(&dtml-css_url;/bullet.png);
 }
 
 </dtml-if>
@@ -867,7 +867,7 @@ ul.configletDetails li.configletDescription {
     border-bottom: &dtml-borderWidth; &dtml-borderStyleAnnotations; &dtml-discreetColor;;
 }
 .comment h3 a {
-    background-image: url(&dtml-css_url;/discussionitem_icon.gif);
+    background-image: url(&dtml-css_url;/discussionitem_icon.png);
     background-repeat: no-repeat;
 }
 
@@ -885,15 +885,15 @@ dl.collapsible dt.collapsibleHeader {
 
 dl.expandedInlineCollapsible dt.collapsibleHeader,
 dl.expandedBlockCollapsible dt.collapsibleHeader {
-    background: &dtml-backgroundColor; url(treeExpanded.gif) no-repeat 6px 50%;
+    background: &dtml-backgroundColor; url(treeExpanded.png) no-repeat 6px 50%;
 }
 
 dl.collapsedBlockCollapsible dt.collapsibleHeader {
-    background-image: url(&dtml-css_url;/treeCollapsed.gif);
+    background-image: url(&dtml-css_url;/treeCollapsed.png);
 }
 
 dl.collapsedInlineCollapsible dt.collapsibleHeader {
-    background-image: url(&dtml-css_url;/treeCollapsed.gif);
+    background-image: url(&dtml-css_url;/treeCollapsed.png);
 }
 
 .documentEditable .documentContent {
