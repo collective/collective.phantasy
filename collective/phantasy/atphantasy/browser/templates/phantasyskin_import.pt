@@ -8,7 +8,6 @@
     <style type="text/css" media="all">
     #overlay {
      background-color: #000000;
-     background-image: url(blank.gif);
      filter: alpha(opacity=50);
      opacity: 0.5;
      -moz-opacity: 0.5;
@@ -65,7 +64,7 @@
         wait = document.createElement('div');
         wait.setAttribute('id','waitLayer');
         bod.appendChild(wait);
-        waitImg='<img id=\'waitImg\' src=\'$portal_url/loading.gif\' \/><span>$label_upload<\/span>';
+        waitImg='<img id=\'waitImg\' src=\'$portal_url/spinner.gif\' \/><span>$label_upload<\/span>';
         wait.innerHTML= waitImg ;
         if (document.all && document.documentElement)
               {

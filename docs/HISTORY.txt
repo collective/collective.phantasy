@@ -1,7 +1,22 @@
 Changelog
 =========
 
-2.4 (unreleased)
+2.6 (unreleased)
+----------------
+
+- Override .png images instead of .gif ones
+  Content types use .png icons instead of .gif
+  (Plone 4.3 compatibility).
+
+
+2.5 (2014-01-26)
+----------------
+
+- Do not use background-image for 'required' field anymore.
+  [thomasdesvenain]
+
+
+2.4 (2014-01-15)
 ----------------
 
 - Protect css view to avoid site errors on private websites.

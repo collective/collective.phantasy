@@ -1,7 +1,7 @@
 import os
 from setuptools import setup, find_packages
 
-version = '2.4dev'
+version = '2.6.dev0'
 
 setup(name='collective.phantasy',
       version=version,
